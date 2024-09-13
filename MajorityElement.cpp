@@ -39,7 +39,7 @@ int majorityElement(vector<int> &nums)
 
 int main()
 {
-    vector<int> Nums({1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5});
+    vector<int> Nums(1,5);
     int majorElem = majorityElement(Nums);
     cout << majorElem << endl;  // Output the majority element
     return 0;
